@@ -1,0 +1,64 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: #f9f7f7;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Estilos para el contenedor del logo y el título */
+  .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  }
+  
+  .logo img {
+  border-radius: 100px;
+  width: 150px;
+  height: 90px;
+  }
+  
+  .header h1 {
+  margin: 0;
+  }
+  
+  /* BOTONES DE INICIO Y BARRA DE NAVEGACIÓN */
+  .nav ul {
+    display: flex;
+    list-style: none;
+}
+  .nav ul li a {
+    color:aqua
+    text-decoration: none;
+    margin-left: 2rem;
+display: flex;
+list-style: none; /* Quita los puntos (viñetas) de la lista. */
+  gap: 15px; /*Espacio entre las secciones del menú nav */
+  }
+  
+    .nav-button {
+    background-color: #9AAF94;
+    color: #eae1e1;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 3px solid white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+    .nav-button:hover {
+    background-color: #7F966F;
+  transform: scale(1.05);
+  }
+  
